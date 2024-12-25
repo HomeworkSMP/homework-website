@@ -9,6 +9,12 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.0" PrivateAssets="all" />
+	  <UpToDateCheckBuilt Include="wwwroot/css/app.css" Set="Css" />
+	  <UpToDateCheckBuilt Include="tailwind.config.js" Set="Css" />
   </ItemGroup>
 
+	<Target Name="Tailwind" BeforeTargets="Build">
+		<Exec Command="npm run css:build"/>
+	</Target>
+	
 </Project>
