@@ -31,11 +31,11 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/HomeworkSMP/website-prototype.git
+    git clone https://github.com/HomeworkSMP/homework-website.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd website-prototype
+    cd homework-website
     ```
 3. Install the necessary dependencies and run the project:
     ```bash
@@ -52,7 +52,7 @@ To create a pull request, follow these steps:
 1. **Fork the repository**: Click the "Fork" button at the top right corner of the repository page to create a copy of the repository in your GitHub account.
 2. **Clone your fork**: Clone the forked repository to your local machine.
     ```bash
-   git clone https://github.com/your-username/website-prototype.git
+   git clone https://github.com/your-username/homework-website.git
     ```
 3. **Create a new branch**: Create a new branch for your changes.
    ```bash
